@@ -1,0 +1,75 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f1f3;
+}
+.flexible-contaner{
+    width: 1000px;
+    margin: 0 auto;
+}
+/*---------------------
+     banner style
+-------------------- */
+.section-1{
+    background-color: rgb(40, 40, 145);
+}
+.section-wallpaper{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 70px;
+    color: white;
+}
+.half-width .half-img{
+    width: 50%;
+}
+.half-width a{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    font-size: 16px;
+}
+
+.half-img img{
+    width: 100%;
+    margin-left: 20px;
+}
+
+    /* -----------------------
+    players block
+    --------------------- */
+
+.all-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 100px;
+    grid-column: px;
+    grid-row: px;
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    height: 474px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+}
+.thumbail img{
+    width: 300px;
+    height: 256px;
+}
+.player-info{
+    width: 300px;
+    height: 154px;
+
+}
