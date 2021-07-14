@@ -131,3 +131,49 @@ h2{
     margin-left: 400px;
     margin-right: 300px;
 }
+
+ /*-------------------------
+         Media Queries
+   -------------------------- */
+
+   /*--------
+    Mobile devices
+    ------- */
+
+    @media only screen and (max-width:688px) {
+       /* common style */
+    .container{
+        width: 90%;
+    }
+     /* section-1 style */
+     .section-1{
+        padding: 0px;
+    }
+    .section-wallpaper{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .half-width h1{
+        font-size: 26px;
+        margin: 30px 0px;
+    }
+    .half-width{
+        width: 30%;
+    }
+    .half-img{
+        width: 35%;
+        margin: 40px 0px;
+    }
+    .half-img img{
+        width: 70%;
+    }  
+    /* ------------------------------------ */
+    /* section-2 players style */
+    .players-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    }
+
+
